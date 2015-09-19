@@ -70,9 +70,9 @@
 #define  CDS_STDCALL    __stdcall
 
 #ifdef CDS_BUILD_LIB
-#   define CDS_EXPORT_API          __declspec(dllexport)
+#   define CDS_EXPORT_API   
 #else
-#   define CDS_EXPORT_API          __declspec(dllimport)
+#   define CDS_EXPORT_API  
 #endif
 
 #define alignof     __alignof

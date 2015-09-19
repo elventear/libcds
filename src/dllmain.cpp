@@ -1,4 +1,5 @@
 //$$CDS-header$$
+#if 0
 
 #include <cds/details/defs.h>
 
@@ -216,4 +217,4 @@ BOOL WINAPI DllMain(
 
 #endif  // #if CDS_OS_TYPE == CDS_OS_WIN32
 
-
+#endif
